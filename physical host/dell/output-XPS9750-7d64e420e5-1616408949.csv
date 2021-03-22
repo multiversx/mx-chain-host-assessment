@@ -1,0 +1,22 @@
+App version,assessment-go1.15.5/linux-amd64/7d64e420e5
+CPU model,Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+CPU numLogical,12
+CPU flags,3dnowprefetch abm acpi adx aes aperfmperf apic arat arch_perfmon art avx avx2 bmi1 bmi2 bts clflush clflushopt cmov constant_tsc cpuid cpuid_fault cx16 cx8 de ds_cpl dtes64 dtherm dts epb ept ept_ad erms est f16c flexpriority flush_l1d fma fpu fsgsbase fxsr ht hwp hwp_act_window hwp_epp hwp_notify ibpb ibrs ida intel_pt invpcid invpcid_single lahf_lm lm mca mce md_clear mmx monitor movbe mpx msr mtrr nonstop_tsc nopl nx pae pat pbe pcid pclmulqdq pdcm pdpe1gb pebs pge pln pni popcnt pse pse36 pti pts rdrand rdseed rdtscp rep_good sdbg sep smap smep ss ssbd sse sse2 sse4_1 sse4_2 ssse3 stibp syscall tm tm2 tpr_shadow tsc tsc_adjust tsc_deadline_timer vme vmx vnmi vpid x2apic xgetbv1 xsave xsavec xsaveopt xsaves xtopology xtpr
+CPU maxFreq,4100 MHz
+Memory size,31.01 GB
+"fibonacci, function _main, numRuns 10",0.800,
+"cpu calculate, function cpuCalculate, numRuns 2000",0.597,
+"storage100, function store100, numRuns 2000",0.485,
+"C API big int, function bigIntNewTest, numRuns 700",0.899,
+"C API big int mul 32, function bigIntMul32Test, numRuns 2",0.669,
+"C API sha256, function sha256Test, numRuns 30",0.533,
+"C API keccak256, function keccak256Test, numRuns 30",0.718,
+"C API ripemd160, function ripemd160Test, numRuns 30",0.604,
+"C API verify BLS, function verifyBLSTest, numRuns 5",0.654,
+"C API verify ED25519, function verifyEd25519Test, numRuns 50",0.727,
+"C API verify secp256k1 uncompressed, function verifySecp256k1UncompressedKeyTest, numRuns 400",8.618,
+"C API verify secp256k1 compressed, function verifySecp256k1CompressedKeyTest, numRuns 200",4.685,
+"Delegation in Arwen, 2000 stake executions, minimum duration",0.787,
+"ERC20 in C, 1000 transfer executions, minimum duration",0.482,
+"ERC20 in Rust, 300 transfer executions, minimum duration",0.437,
+TOTAL,21.697,
