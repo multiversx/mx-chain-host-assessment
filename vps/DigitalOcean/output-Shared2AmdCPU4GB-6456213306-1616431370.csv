@@ -1,0 +1,22 @@
+App version,assessment-go1.15.5/linux-amd64/6456213306
+CPU model,DO-Premium-AMD
+CPU numLogical,2
+CPU flags,3dnowprefetch abm adx aes apic arat avx avx2 bmi1 bmi2 clflush clflushopt clwb clzero cmov cmp_legacy cpuid cr8_legacy cx16 cx8 de extd_apicid f16c fma fpu fsgsbase fxsr fxsr_opt ht hypervisor ibpb lahf_lm lm mca mce misalignsse mmx mmxext movbe msr mtrr nopl npt nrip_save nx osvw pae pat pclmulqdq pdpe1gb perfctr_core pge pni popcnt pse pse36 rdpid rdrand rdseed rdtscp rep_good sep sha_ni smap smep sse sse2 sse4_1 sse4_2 sse4a ssse3 stibp svm syscall tsc tsc_known_freq umip vme vmmcall wbnoinvd xgetbv1 xsave xsavec xsaveerptr xsaveopt
+CPU maxFreq,1996 MHz
+Memory size,3.84 GB
+"fibonacci, function _main, numRuns 10",1.543,
+"cpu calculate, function cpuCalculate, numRuns 2000",0.978,
+"storage100, function store100, numRuns 2000",0.939,
+"C API big int, function bigIntNewTest, numRuns 700",1.430,
+"C API big int mul 32, function bigIntMul32Test, numRuns 2",0.800,
+"C API sha256, function sha256Test, numRuns 30",0.791,
+"C API keccak256, function keccak256Test, numRuns 30",1.191,
+"C API ripemd160, function ripemd160Test, numRuns 30",0.825,
+"C API verify BLS, function verifyBLSTest, numRuns 5",1.100,
+"C API verify ED25519, function verifyEd25519Test, numRuns 50",1.163,
+"C API verify secp256k1 uncompressed, function verifySecp256k1UncompressedKeyTest, numRuns 400",12.598,
+"C API verify secp256k1 compressed, function verifySecp256k1CompressedKeyTest, numRuns 200",6.797,
+"Delegation in Arwen, 2000 stake executions, minimum duration",1.315,
+"ERC20 in C, 1000 transfer executions, minimum duration",0.864,
+"ERC20 in Rust, 300 transfer executions, minimum duration",0.726,
+TOTAL,33.060,

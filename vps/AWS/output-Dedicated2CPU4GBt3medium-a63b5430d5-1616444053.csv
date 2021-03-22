@@ -1,0 +1,22 @@
+App version,assessment-go1.15.5/linux-amd64/a63b5430d5
+CPU model,Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz
+CPU numLogical,2
+CPU flags,3dnowprefetch abm adx aes apic arat avx avx2 avx512bw avx512cd avx512dq avx512f avx512vl bmi1 bmi2 clflush clflushopt clwb cmov constant_tsc cpuid cx16 cx8 de erms f16c fma fpu fsgsbase fxsr ht hypervisor ida invpcid invpcid_single lahf_lm lm mca mce mmx movbe mpx msr mtrr nonstop_tsc nopl nx ospke pae pat pcid pclmulqdq pdpe1gb pge pku pni popcnt pse pse36 pti rdrand rdseed rdtscp rep_good sep smap smep ss sse sse2 sse4_1 sse4_2 ssse3 syscall tsc tsc_adjust tsc_deadline_timer tsc_known_freq vme x2apic xgetbv1 xsave xsavec xsaveopt xsaves xtopology
+CPU maxFreq,2499 MHz
+Memory size,3.79 GB
+"fibonacci, function _main, numRuns 10",1.018,
+"cpu calculate, function cpuCalculate, numRuns 2000",0.666,
+"storage100, function store100, numRuns 2000",0.623,
+"C API big int, function bigIntNewTest, numRuns 700",1.063,
+"C API big int mul 32, function bigIntMul32Test, numRuns 2",0.663,
+"C API sha256, function sha256Test, numRuns 30",0.566,
+"C API keccak256, function keccak256Test, numRuns 30",0.885,
+"C API ripemd160, function ripemd160Test, numRuns 30",0.625,
+"C API verify BLS, function verifyBLSTest, numRuns 5",0.719,
+"C API verify ED25519, function verifyEd25519Test, numRuns 50",0.755,
+"C API verify secp256k1 uncompressed, function verifySecp256k1UncompressedKeyTest, numRuns 400",9.157,
+"C API verify secp256k1 compressed, function verifySecp256k1CompressedKeyTest, numRuns 200",5.045,
+"Delegation in Arwen, 2000 stake executions, minimum duration",0.850,
+"ERC20 in C, 1000 transfer executions, minimum duration",0.639,
+"ERC20 in Rust, 300 transfer executions, minimum duration",0.504,
+TOTAL,23.776,
