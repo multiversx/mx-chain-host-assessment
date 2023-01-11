@@ -16,7 +16,7 @@ Memory size,7.66 GB
 "C API verify ED25519, function verifyEd25519Test, numRuns 50",0.898,
 "C API verify secp256k1 uncompressed, function verifySecp256k1UncompressedKeyTest, numRuns 400",11.368,
 "C API verify secp256k1 compressed, function verifySecp256k1CompressedKeyTest, numRuns 200",6.249,
-"Delegation in Arwen, 2000 stake executions, minimum duration",1.219,
+"Delegation in WASM VM, 2000 stake executions, minimum duration",1.219,
 "ERC20 in C, 1000 transfer executions, minimum duration",1.107,
 "ERC20 in Rust, 300 transfer executions, minimum duration",0.724,
 TOTAL,30.037,
